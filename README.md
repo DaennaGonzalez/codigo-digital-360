@@ -26,6 +26,7 @@ La compilación queda en `dist/`.
 
 ## Publicar
 
+- **GitHub Pages:** cada envío a `main` compila y publica automáticamente mediante GitHub Actions en `https://daennagonzalez.github.io/codigo-digital-360/`.
 - **Netlify:** importa el repositorio, usa `npm run build` y publica `dist`. `netlify.toml` conserva las rutas de React Router.
 - **Vercel:** importa el repositorio; el framework Vite se detecta automáticamente. `vercel.json` dirige las rutas internas a `index.html`.
 - También puedes alojar el contenido de `dist/` en cualquier servidor estático que redirija rutas desconocidas a `index.html`.

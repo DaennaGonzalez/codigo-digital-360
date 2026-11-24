@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from 'react'
 import { Check, Copy, Download, Pause, Play, RotateCcw, RotateCw, Volume2, X, ChevronLeft, ChevronRight } from 'lucide-react'
 import { images, prompts } from '../data/content'
+import { asset } from '../utils/assets'
 
 export function Lightbox({items=images, index, onClose, onMove}:{items:readonly (readonly string[])[];index:number|null;onClose:()=>void;onMove?:(i:number)=>void}){
   const closeRef=useRef<HTMLButtonElement>(null)
@@ -10,7 +11,7 @@ export function Lightbox({items=images, index, onClose, onMove}:{items:readonly 
   return <div className="lightbox" role="dialog" aria-modal="true" aria-label={item[1]} onMouseDown={e=>{if(e.target===e.currentTarget)onClose()}}>
     <button ref={closeRef} className="close" onClick={onClose} aria-label="Cerrar"><X/></button>
     {items.length>1&&<button className="light-prev" onClick={()=>onMove?.((index-1+items.length)%items.length)} aria-label="Imagen anterior"><ChevronLeft/></button>}
-    <figure><img src={`/assets/images/${item[0]}`} alt={item[2]}/><figcaption><strong>{item[1]}</strong><span>{item[3]}</span></figcaption></figure>
+    <figure><img src={asset(`assets/images/${item[0]}`)} alt={item[2]}/><figcaption><strong>{item[1]}</strong><span>{item[3]}</span></figcaption></figure>
     {items.length>1&&<button className="light-next" onClick={()=>onMove?.((index+1)%items.length)} aria-label="Imagen siguiente"><ChevronRight/></button>}
   </div>
 }
@@ -38,6 +39,6 @@ export function AudioPlayer(){
   const ref=useRef<HTMLAudioElement>(null);const [playing,setPlaying]=useState(false);const [current,setCurrent]=useState(0);const [duration,setDuration]=useState(0);const [volume,setVolume]=useState(1)
   const toggle=()=>{const a=ref.current;if(!a)return;if(a.paused)a.play();else a.pause()}
   const skip=(n:number)=>{if(ref.current)ref.current.currentTime=Math.max(0,Math.min(ref.current.duration||0,ref.current.currentTime+n))}
-  return <div className="audio-card"><div className="wave" aria-hidden="true">{Array.from({length:36},(_,i)=><i key={i} style={{height:`${18+(i*17)%54}px`}}/>)}</div><audio ref={ref} src="/assets/audio/reflexion_cultura_digital_ia.mp3" preload="metadata" onPlay={()=>setPlaying(true)} onPause={()=>setPlaying(false)} onTimeUpdate={e=>setCurrent(e.currentTarget.currentTime)} onLoadedMetadata={e=>setDuration(e.currentTarget.duration)}/>
-  <div className="audio-controls"><button className="audio-play" onClick={toggle} aria-label={playing?'Pausar':'Reproducir'}>{playing?<Pause/>:<Play fill="currentColor"/>}</button><button onClick={()=>skip(-10)} aria-label="Retroceder 10 segundos"><RotateCcw/></button><span className="time">{time(current)}</span><input className="seek" type="range" min="0" max={duration||0} step=".1" value={current} aria-label="Progreso del audio" onChange={e=>{if(ref.current)ref.current.currentTime=Number(e.target.value)}}/><span className="time">{time(duration)}</span><button onClick={()=>skip(10)} aria-label="Avanzar 10 segundos"><RotateCw/></button><Volume2/><input type="range" min="0" max="1" step=".05" value={volume} aria-label="Volumen" onChange={e=>{const v=Number(e.target.value);setVolume(v);if(ref.current)ref.current.volume=v}}/><a className="download-icon" href="/assets/audio/reflexion_cultura_digital_ia.mp3" download aria-label="Descargar audio"><Download/></a></div></div>
+  return <div className="audio-card"><div className="wave" aria-hidden="true">{Array.from({length:36},(_,i)=><i key={i} style={{height:`${18+(i*17)%54}px`}}/>)}</div><audio ref={ref} src={asset('assets/audio/reflexion_cultura_digital_ia.mp3')} preload="metadata" onPlay={()=>setPlaying(true)} onPause={()=>setPlaying(false)} onTimeUpdate={e=>setCurrent(e.currentTarget.currentTime)} onLoadedMetadata={e=>setDuration(e.currentTarget.duration)}/>
+  <div className="audio-controls"><button className="audio-play" onClick={toggle} aria-label={playing?'Pausar':'Reproducir'}>{playing?<Pause/>:<Play fill="currentColor"/>}</button><button onClick={()=>skip(-10)} aria-label="Retroceder 10 segundos"><RotateCcw/></button><span className="time">{time(current)}</span><input className="seek" type="range" min="0" max={duration||0} step=".1" value={current} aria-label="Progreso del audio" onChange={e=>{if(ref.current)ref.current.currentTime=Number(e.target.value)}}/><span className="time">{time(duration)}</span><button onClick={()=>skip(10)} aria-label="Avanzar 10 segundos"><RotateCw/></button><Volume2/><input type="range" min="0" max="1" step=".05" value={volume} aria-label="Volumen" onChange={e=>{const v=Number(e.target.value);setVolume(v);if(ref.current)ref.current.volume=v}}/><a className="download-icon" href={asset('assets/audio/reflexion_cultura_digital_ia.mp3')} download aria-label="Descargar audio"><Download/></a></div></div>
 }
