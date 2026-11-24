@@ -1,0 +1,11 @@
+{
+  "nombre": "Uso de Internet en México en 2025",
+  "poblacion": "Personas de 6 años y más, México",
+  "dato_nacional_porcentaje": 86.1,
+  "urbano_porcentaje": 88.9,
+  "rural_porcentaje": 75.2,
+  "fuente": "INEGI, ENDUTIH 2025, comunicado de prensa 16 de junio de 2026",
+  "url_fuente": "https://www.inegi.org.mx/contenidos/saladeprensa/boletines/2026/endutih/ENDUTIH_25.pdf",
+  "visualizacion_sugerida": "dos barras urbanas/rurales; dato nacional como estadística separada",
+  "advertencia": "No mezclar población usuaria con porcentajes de hogares."
+}

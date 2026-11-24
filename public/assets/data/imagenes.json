@@ -1,0 +1,197 @@
+[
+  {
+    "id": "01",
+    "archivo": "01_portada_candado_circuitos.jpg",
+    "titulo": "Portada panorámica",
+    "ruta_publica": "/assets/images/01_portada_candado_circuitos.jpg",
+    "uso_en": "inicio",
+    "texto_alternativo": "Candado digital azul con conexiones de circuitos electrónicos",
+    "recomendacion_de_diseno": "Imagen panorámica de fondo del hero, mantener área central visible",
+    "dimensiones_px": [
+      2048,
+      585
+    ],
+    "origen": "fotografia/ilustracion proporcionada por el usuario",
+    "licencia": "NO VERIFICADA: revisar autor y permiso antes de publicacion publica"
+  },
+  {
+    "id": "02",
+    "archivo": "02_candado_seguridad.jpg",
+    "titulo": "Candado y seguridad",
+    "ruta_publica": "/assets/images/02_candado_seguridad.jpg",
+    "uso_en": "informacion-segura",
+    "texto_alternativo": "Candado azul luminoso rodeado de circuitos digitales",
+    "recomendacion_de_diseno": "Encabezado de información segura y tarjetas de seguridad",
+    "dimensiones_px": [
+      1600,
+      900
+    ],
+    "origen": "fotografia/ilustracion proporcionada por el usuario",
+    "licencia": "NO VERIFICADA: revisar autor y permiso antes de publicacion publica"
+  },
+  {
+    "id": "03",
+    "archivo": "03_icono_candado_circuitos.png",
+    "titulo": "Ícono de circuito con candado",
+    "ruta_publica": "/assets/images/03_icono_candado_circuitos.png",
+    "uso_en": "inicio",
+    "texto_alternativo": "Ícono de candado con líneas de circuitos sobre fondo blanco",
+    "recomendacion_de_diseno": "Ícono decorativo en tarjeta pequeña, no estirar a pantalla completa",
+    "dimensiones_px": [
+      460,
+      460
+    ],
+    "origen": "fotografia/ilustracion proporcionada por el usuario",
+    "licencia": "NO VERIFICADA: revisar autor y permiso antes de publicacion publica"
+  },
+  {
+    "id": "04",
+    "archivo": "04_telefono_huella_digital.jpg",
+    "titulo": "Teléfono e imagen digital",
+    "ruta_publica": "/assets/images/04_telefono_huella_digital.jpg",
+    "uso_en": "ciudadania-digital",
+    "texto_alternativo": "Mano sosteniendo un teléfono que fotografía edificios",
+    "recomendacion_de_diseno": "Bloque de huella digital, privacidad y noticia de autocuidado",
+    "dimensiones_px": [
+      2048,
+      1152
+    ],
+    "origen": "fotografia/ilustracion proporcionada por el usuario",
+    "licencia": "NO VERIFICADA: revisar autor y permiso antes de publicacion publica"
+  },
+  {
+    "id": "05",
+    "archivo": "05_cerebro_ia.jpg",
+    "titulo": "Cerebro digital",
+    "ruta_publica": "/assets/images/05_cerebro_ia.jpg",
+    "uso_en": "inteligencia-artificial",
+    "texto_alternativo": "Cerebro azul brillante formado por circuitos electrónicos",
+    "recomendacion_de_diseno": "Encabezado de inteligencia artificial y tarjeta noticia IA",
+    "dimensiones_px": [
+      1024,
+      1024
+    ],
+    "origen": "fotografia/ilustracion proporcionada por el usuario",
+    "licencia": "NO VERIFICADA: revisar autor y permiso antes de publicacion publica"
+  },
+  {
+    "id": "06",
+    "archivo": "06_estudiantes_laptops.jpg",
+    "titulo": "Estudiantes con portátiles",
+    "ruta_publica": "/assets/images/06_estudiantes_laptops.jpg",
+    "uso_en": "productividad-digital",
+    "texto_alternativo": "Estudiantes trabajando en equipo con computadoras portátiles",
+    "recomendacion_de_diseno": "Hero y ejemplo de colaboración en línea",
+    "dimensiones_px": [
+      1290,
+      860
+    ],
+    "origen": "fotografia/ilustracion proporcionada por el usuario",
+    "licencia": "NO VERIFICADA: revisar autor y permiso antes de publicacion publica"
+  },
+  {
+    "id": "07",
+    "archivo": "07_estudiantes_ordenador.jpg",
+    "titulo": "Equipo estudiantil en computadora",
+    "ruta_publica": "/assets/images/07_estudiantes_ordenador.jpg",
+    "uso_en": "productividad-digital",
+    "texto_alternativo": "Estudiantes reunidos ante un monitor en un aula",
+    "recomendacion_de_diseno": "Sección de productividad y proyectos de equipo",
+    "dimensiones_px": [
+      1600,
+      1200
+    ],
+    "origen": "fotografia/ilustracion proporcionada por el usuario",
+    "licencia": "NO VERIFICADA: revisar autor y permiso antes de publicacion publica"
+  },
+  {
+    "id": "08",
+    "archivo": "08_mano_robotica.jpg",
+    "titulo": "Mano robótica digital",
+    "ruta_publica": "/assets/images/08_mano_robotica.jpg",
+    "uso_en": "inteligencia-artificial",
+    "texto_alternativo": "Mano robótica azul frente a conexiones de red tecnológica",
+    "recomendacion_de_diseno": "Banda de IA con imagen secundaria",
+    "dimensiones_px": [
+      857,
+      630
+    ],
+    "origen": "fotografia/ilustracion proporcionada por el usuario",
+    "licencia": "NO VERIFICADA: revisar autor y permiso antes de publicacion publica"
+  },
+  {
+    "id": "09",
+    "archivo": "09_servidores_azules.jpg",
+    "titulo": "Centro de datos iluminado",
+    "ruta_publica": "/assets/images/09_servidores_azules.jpg",
+    "uso_en": "recursos-y-creditos",
+    "texto_alternativo": "Pasillo de servidores informáticos con iluminación azul",
+    "recomendacion_de_diseno": "Encabezado de biblioteca digital y reflexión",
+    "dimensiones_px": [
+      800,
+      560
+    ],
+    "origen": "fotografia/ilustracion proporcionada por el usuario",
+    "licencia": "NO VERIFICADA: revisar autor y permiso antes de publicacion publica"
+  },
+  {
+    "id": "10",
+    "archivo": "10_infografia_noticias_falsas.png",
+    "titulo": "Infografía: noticias falsas",
+    "ruta_publica": "/assets/images/10_infografia_noticias_falsas.png",
+    "uso_en": "informacion-segura",
+    "texto_alternativo": "Infografía en español con cinco consejos para detectar noticias falsas",
+    "recomendacion_de_diseno": "Mostrar completa, sin recorte y con opción de ampliar",
+    "dimensiones_px": [
+      1086,
+      1448
+    ],
+    "origen": "infografia generada con IA en esta conversacion",
+    "licencia": "material generado con IA, documentar su origen"
+  },
+  {
+    "id": "11",
+    "archivo": "11_infografia_protege_datos.png",
+    "titulo": "Infografía: protege tus datos",
+    "ruta_publica": "/assets/images/11_infografia_protege_datos.png",
+    "uso_en": "informacion-segura",
+    "texto_alternativo": "Infografía con seis consejos de seguridad en línea y datos personales",
+    "recomendacion_de_diseno": "Mostrar completa, sin recorte, texto alternativo/descripción",
+    "dimensiones_px": [
+      1086,
+      1448
+    ],
+    "origen": "infografia generada con IA en esta conversacion",
+    "licencia": "material generado con IA, documentar su origen"
+  },
+  {
+    "id": "12",
+    "archivo": "12_infografia_datos_personales.png",
+    "titulo": "Infografía: protección de datos",
+    "ruta_publica": "/assets/images/12_infografia_datos_personales.png",
+    "uso_en": "recursos-y-creditos",
+    "texto_alternativo": "Infografía ilustrada sobre qué son los datos personales y cómo protegerlos",
+    "recomendacion_de_diseno": "Galería de recursos o imagen ampliable",
+    "dimensiones_px": [
+      1086,
+      1448
+    ],
+    "origen": "infografia generada con IA en esta conversacion",
+    "licencia": "material generado con IA, documentar su origen"
+  },
+  {
+    "id": "13",
+    "archivo": "13_infografia_ciudadania_digital.png",
+    "titulo": "Infografía: ciudadanía digital",
+    "ruta_publica": "/assets/images/13_infografia_ciudadania_digital.png",
+    "uso_en": "ciudadania-digital",
+    "texto_alternativo": "Infografía sobre huella digital, derechos, convivencia, amenazas y brecha digital",
+    "recomendacion_de_diseno": "Mostrar completa, sin recorte y con opción de ampliar",
+    "dimensiones_px": [
+      1086,
+      1448
+    ],
+    "origen": "infografia generada con IA en esta conversacion",
+    "licencia": "material generado con IA, documentar su origen"
+  }
+]

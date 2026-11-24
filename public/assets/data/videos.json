@@ -1,0 +1,20 @@
+[
+  {
+    "id": "unam-digital-ia",
+    "titulo": "Sistemas de Inteligencia Artificial Generativa: ¿Qué son, cómo funcionan?",
+    "institucion": "UNAM Digital",
+    "url": "https://www.youtube.com/watch?v=fdx8P3lUvfY",
+    "video_id": "fdx8P3lUvfY",
+    "seccion": "inteligencia-artificial",
+    "nota": "Enlace hallado en materiales académicos; comprobar reproducción insertada al implementar"
+  },
+  {
+    "id": "dite-unam-ia",
+    "titulo": "Microcápsula: Sistemas de Inteligencia Artificial Generativa: ¿Qué son, cómo funcionan?",
+    "institucion": "DITE UNAM",
+    "url": "https://www.youtube.com/watch?v=UnBF9xYJg6U",
+    "video_id": "UnBF9xYJg6U",
+    "seccion": "inteligencia-artificial",
+    "nota": "Enlace incluido en contenido original; comprobar que existe y permite inserción antes de publicar"
+  }
+]

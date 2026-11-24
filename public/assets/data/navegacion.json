@@ -1,0 +1,51 @@
+[
+  {
+    "ruta": "/",
+    "nombre": "Inicio",
+    "archivo": "contenido/paginas/00_INICIO.md",
+    "icono_sugerido": "home",
+    "imagen_hero": "/assets/images/01_portada_candado_circuitos.jpg"
+  },
+  {
+    "ruta": "/ciudadania-digital",
+    "nombre": "Ciudadanía digital",
+    "archivo": "contenido/paginas/01_CIUDADANIA_DIGITAL.md",
+    "icono_sugerido": "fingerprint",
+    "imagen_hero": "/assets/images/04_telefono_huella_digital.jpg"
+  },
+  {
+    "ruta": "/informacion-segura",
+    "nombre": "Información segura",
+    "archivo": "contenido/paginas/02_INFORMACION_SEGURA.md",
+    "icono_sugerido": "shield-check",
+    "imagen_hero": "/assets/images/02_candado_seguridad.jpg"
+  },
+  {
+    "ruta": "/inteligencia-artificial",
+    "nombre": "Inteligencia artificial",
+    "archivo": "contenido/paginas/03_INTELIGENCIA_ARTIFICIAL.md",
+    "icono_sugerido": "brain-circuit",
+    "imagen_hero": "/assets/images/05_cerebro_ia.jpg"
+  },
+  {
+    "ruta": "/productividad-digital",
+    "nombre": "Productividad digital",
+    "archivo": "contenido/paginas/04_PRODUCTIVIDAD_DIGITAL.md",
+    "icono_sugerido": "laptop",
+    "imagen_hero": "/assets/images/06_estudiantes_laptops.jpg"
+  },
+  {
+    "ruta": "/reflexion",
+    "nombre": "Nuestra reflexión",
+    "archivo": "contenido/paginas/05_REFLEXION.md",
+    "icono_sugerido": "audio-lines",
+    "imagen_hero": "/assets/images/09_servidores_azules.jpg"
+  },
+  {
+    "ruta": "/recursos",
+    "nombre": "Recursos y créditos",
+    "archivo": "contenido/paginas/06_RECURSOS_Y_CREDITOS.md",
+    "icono_sugerido": "book-open",
+    "imagen_hero": "/assets/images/09_servidores_azules.jpg"
+  }
+]
